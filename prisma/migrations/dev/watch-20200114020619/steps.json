@@ -1,0 +1,59 @@
+{
+  "version": "0.3.14-fixed",
+  "steps": [
+    {
+      "tag": "DeleteField",
+      "model": "Post",
+      "field": "dataType"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "Post",
+      "field": "materialType"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "Post",
+      "field": "imaginaryPartX"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "Post",
+      "field": "imaginaryPartY"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "Post",
+      "field": "dfImaginaryPartX"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "Post",
+      "field": "dfImaginaryPartY"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "Post",
+      "field": "dfRealPartX"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "Post",
+      "field": "dfRealPartY"
+    },
+    {
+      "tag": "UpdateArgument",
+      "location": {
+        "tag": "Directive",
+        "path": {
+          "tag": "Field",
+          "model": "Post",
+          "field": "published"
+        },
+        "directive": "default"
+      },
+      "argument": "",
+      "newValue": "false"
+    }
+  ]
+}
